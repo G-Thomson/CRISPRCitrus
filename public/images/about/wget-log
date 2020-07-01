@@ -1,0 +1,11 @@
+--2020-07-01 16:55:09--  https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.equipmentworld.com%2Fwp-content%2Fuploads%2Fsites%2F2%2F2018%2F08%2F1-USDA-logo.png
+Resolving external-content.duckduckgo.com (external-content.duckduckgo.com)... 52.149.246.247
+Connecting to external-content.duckduckgo.com (external-content.duckduckgo.com)|52.149.246.247|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/png]
+Saving to: ‘index.html?u=https:%2F%2Fwww.equipmentworld.com%2Fwp-content%2Fuploads%2Fsites%2F2%2F2018%2F08%2F1-USDA-logo.png’
+
+                  index.html?u=http     [<=>                                                                 ]       0  --.-KB/s               index.html?u=https:%2F%2Fwww.equipm     [ <=>                                                                ]  16.13K  --.-KB/s    in 0s      
+
+2020-07-01 16:55:10 (158 MB/s) - ‘index.html?u=https:%2F%2Fwww.equipmentworld.com%2Fwp-content%2Fuploads%2Fsites%2F2%2F2018%2F08%2F1-USDA-logo.png’ saved [16516]
+

@@ -35,7 +35,7 @@ crispr:
   image : "images/about/CRISPR.png"
   
   content : "
-  CRISPR/Cas9-mediated gene editing is a molecular technique that can be used to dirupt or eliminate the function 
+  CRISPR/Cas9-mediated gene editing is a molecular technique that can be used to disrupt or eliminate the function 
   of a specified gene (amongst other capabilities). In plant biology it has considerable advantages over traditional 
   breeding approaches for crop improvement as it can be much faster in terms of generating new cultivars and, due to 
   its pinpoint precision, reduces linkage drag that can inadvertently introduce unwanted traits into a particular 
@@ -55,7 +55,7 @@ crispr:
   content2 : "
   The sgRNA and Cas9 can both be introduced into plants together via standard transformation protocols which use 
   Agrobacterium, and mature edited plants are obtained via tissue culture. It is anticipated that screening a 
-  population of editied Citrus plants where genes implicated in HLB susceptibility have been targeted will aid in 
+  population of edited Citrus plants where genes implicated in HLB susceptibility have been targeted will aid in 
   the rapid development of HLB resistant commercial Citrus varieties.
   
   "
@@ -65,7 +65,7 @@ strategy:
   enable : true
   title : "Strategy"
   
-  sec1title : "Selection of potential HLB suceptibility genes"
+  sec1title : "Selection of potential HLB susceptibility genes"
   sec1image : "images/about/Heatmap.png"
   sec1content : "
   In response to the large detrimental impact HLB is having on the Citrus industry many groups 
@@ -121,7 +121,7 @@ strategy:
   
   Agrobacterium-mediated transformation of Citrus sinensis cv Valencia will be carried out based on our optimized
   protocols. Selection of transgenic plants expressing high levels of Cas9 and sgRNAs is facilitated by the use of 
-  the GFP-NPTII bifunctional selection marker. We will maximise the mutation rates in the selected Citrus plants 
+  the GFP-NPTII bifunctional selection marker. We will maximize the mutation rates in the selected Citrus plants 
   by exposing edited plants to repeated heat stress treatments, which we have shown to drastically increase the 
   editing rate in plants. 
   
@@ -189,6 +189,9 @@ team:
       logo : "images/about/UF.png"
       content : "Expertise in consumer acceptance of biotech foods, demand and consumer perception of fruits and vegetables."
 
+    - name : "Stover Lab"
+      logo : "images/about/USDA.jpg"
+      content : "Development of improved Citrus varieties and production practices. Specifically HLB resistance and profitable Citrus production using HLB-susceptible varieties."
       
 ######################## Experience  #####################
 experience:
@@ -208,7 +211,7 @@ experience:
   
   
   The labs have demonstrated that multiplex gene editing is feasible in Citrus. Multiplex gene editing refers to the targeting 
-  of multiple genes in a single event, so as to abrogate the function of several genes at once. This was utilised to successfully 
+  of multiple genes in a single event, so as to abrogate the function of several genes at once. This was utilized to successfully 
   targeted three thorn development genes simultaneously using multiplex CRISPR/Cas9. This multiplex approach was extremely valuable 
   in addressing [genetic redundancy between the thorn developmental genes](https://www.sciencedirect.com/science/article/abs/pii/S0960982220307557) of Citrus as only by mutating several genes simultaneously was 
   it possible to uncover overlapping genetic functions that were not apparent in single knockout lines. As genetic redundancy could also 
