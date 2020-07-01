@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://nostalgic-hermann-7fe5b8.netlify.app"
 languageCode = "en-us"
 title = "CRISPR Citrus"
 theme = "Influencer-hugo"
