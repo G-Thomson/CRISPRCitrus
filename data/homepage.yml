@@ -212,7 +212,7 @@ experience:
   
   The labs have demonstrated that multiplex gene editing is feasible in Citrus. Multiplex gene editing refers to the targeting 
   of multiple genes in a single event, so as to abrogate the function of several genes at once. This was utilized to successfully 
-  targeted three thorn development genes simultaneously using multiplex CRISPR/Cas9. This multiplex approach was extremely valuable 
+  target three thorn development genes simultaneously using multiplex CRISPR/Cas9. This multiplex approach was extremely valuable 
   in addressing [genetic redundancy between the thorn developmental genes](https://www.sciencedirect.com/science/article/abs/pii/S0960982220307557) of Citrus as only by mutating several genes simultaneously was 
   it possible to uncover overlapping genetic functions that were not apparent in single knockout lines. As genetic redundancy could also 
   play a role in HLB susceptibility, the ability to inactivate multiple genes at once will be essential in testing the roles of multiple 
