@@ -1,0 +1,466 @@
+########################## Banner #############################
+banner:
+  enable : true
+  title : "Combating HLB with gene editing"
+  image : "images/about/oranges.jpg"
+  content : "Identification of HLB Susceptibility Genes in a Citrus Population Generated using Multiplexed CRISPR/Cas9 Gene Editing"
+
+######################## Overview ##########################
+overview :
+  enable : true
+  title : "Overview"
+  
+  content : "
+  The U.S. citrus industry is facing unprecedented challenges from the spread of citrus greening disease 
+  (i.e Huanglongbing or HLB) in citrus-growing states like Florida, Texas and California. While traditional 
+  breeding approaches using natural variation are one way of introducing HLB tolerance into select cultivars, 
+  alternative approaches to rapidly generate new cultivars that are resistant/tolerant to the HLB-causing 
+  bacterial pathogen would be extremely valuable.  The overall goal of this two year project is to utilize 
+  the extensive transcriptomic and proteomic information available for HLB infected citrus to develop a 
+  large-scale population of CRISPR/Cas9 gene-edited Valencia plants that can be screened for tolerance to HLB. 
+  This project will provide a sustainable resource (i.e. collection of citrus mutants) for the citrus research 
+  community that can also be screened for resistance to other diseases and for other value-added traits in 
+  the future, and thus accelerate discoveries that would benefit the U.S. citrus industry many years after 
+  the funding period is completed. As part of this project, we also propose to study the economic and societal 
+  impact of using gene-editing technologies like CRISPR/Cas9 to create new citrus cultivars, with a focus on 
+  increasing acceptance of gene-edited crops by consumers and growers. In the longer term, the mutations 
+  identified as enhancing defense against HLB can then be engineered into other commercially important citrus 
+  cultivars and field-tested in Florida and California. 
+  "
+
+######################## CRISPR ##########################
+crispr:
+  enable : true
+  title : "What is CRISPR/Cas9 gene-editing?"
+  image : "images/about/CRISPR.png"
+  
+  content : "
+  CRISPR/Cas9-mediated gene editing is a molecular technique that can be used to dirupt or eliminate the function 
+  of a specified gene (amongst other capabilities). In plant biology it has considerable advantages over traditional 
+  breeding approaches for crop improvement as it can be much faster in terms of generating new cultivars and, due to 
+  its pinpoint precision, reduces linkage drag that can inadvertently introduce unwanted traits into a particular 
+  cultivar.
+  
+  
+  The CRISPR/Cas9 system consists of a protein-RNA complex composed of two components; a single guide RNA (sgRNA) 
+  and the Cas9 endonuclease. The sgRNA provides specificity to the Cas9-sgRNA complex by targeting the endonuclease 
+  to a single DNA locus in the genome using RNA:DNA pairing. Therefore, by designing the appropriate site-specific 
+  sgRNAs, Cas9 can be targeted to any gene in the genome to induce a double-stranded DNA (dsDNA) break. These dsDNA 
+  breaks are most often repaired by an error-prone DNA repair pathway that can randomly create small insertions or 
+  deletions. This makes CRISPR/Cas9 useful for knocking out the function of a gene, as the targeted insertions and 
+  deletions that are created in the repair process usually change the reading frame of a gene, which in turn prevents 
+  the production of a functional protein.
+  
+  "
+  content2 : "
+  The sgRNA and Cas9 can both be introduced into plants together via standard transformation protocols which use 
+  Agrobacterium, and mature edited plants are obtained via tissue culture. It is anticipated that screening a 
+  population of editied Citrus plants where genes implicated in HLB susceptibility have been targeted will aid in 
+  the rapid development of HLB resistant commercial Citrus varieties.
+  
+  "
+  
+######################## Strategy ##########################
+strategy:
+  enable : true
+  title : "Strategy"
+  
+  sec1title : "Selection of potential HLB suceptibility genes"
+  sec1image : "images/about/Heatmap.png"
+  sec1content : "
+  In response to the large detrimental impact HLB is having on the Citrus industry many groups 
+  within the Citrus research community have described how Citrus trees respond to HLB at the 
+  molecular level. This has generated a large number of global genomic datasets, an invaluable 
+  resource in future efforts to understand and combat HLB. However the use of differing technologies, 
+  reference genomes and reporting formats has previously prevented leveraging this wealth of information 
+  together as a whole.
+  
+  
+  Recently we have surveyed the literature and identified 28 publications documenting 71 such datasets. 
+  These include both transcriptomic and proteomic approaches and describe a diverse range of samples taken 
+  from different tissues, stages of HLB progression and Citrus species. Differentially abundant genes and 
+  proteins were manually extracted from the publications and collated. Then to make meaningful comparisons 
+  possible, [phylogenetic orthology inference](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1832-y) 
+  was used to identify orthologous genes between reference genomes. This allows the straight-forward 
+  translation of genes and/or proteins into one common genome annotation which facilitates meaningful 
+  comparison between genomic datasets. This analysis classified 27,855 C. sinensis v2.0 genes into 23,017 
+  orthogroups and a total of 22,887 unique genes were identified as differentially abundant in at 
+  least one dataset (82% of the total genes). 
+   
+   
+  We will utilise this analysis as a starting point to select potential HLB susceptibility genes by 
+  prioritising genes which are identified as differentially abundant in multiple studies. These genes are 
+  more likely to be biological responses of the Citrus tree to HLB. For instance, there are 1,029 differentially 
+  abundant genes in 10 or more datasets representing 4.65% of the total differentially abundant genes. The 
+  subsetted data includes many genes previously implicated in HLB susceptibility. Gene Ontology enrichment 
+  analysis identifies carbohydrate metabolism and defense response genes over-represented in the list, 
+  consistent with what is understood about the biology of HLB. 
+  
+  
+  We will also consider biologically relevant subsets of the datasets, previously identified candidate genes, 
+  parologous genes and other candidates suggested by the community. 
+  "
+  
+  sec2title : "Generation of mutant population"
+  sec2content : "
+  To inactivate 1,200 HLB-susceptibility genes, we will use a multiplex CRISPR/Cas9 approach. Our 
+  strategy will be to include four sgRNA genes targeting four different Citrus genes in each binary vector. 
+  This multiplex approach will therefore require a minimum of 300 constructs each containing a different set 
+  of four sgRNAs, for a total of 1,200 gene knockouts in 300 Citrus plants. We intend to create and maintain 
+  two independent Citrus transgenic plants for each set of four sgRNAs, so the final plant collection created 
+  will consist of 600 plants housed at the Yale Plant Facility.
+  
+  
+  The combination of each set of sgRNAs will be determined by their phylogenetic relationship to one another 
+  and location in the genome. Their patterns of co-expression and predicted function will also be considered. 
+  The ortholog analysis we have done (see above) will also be used such that sgRNA targeting genes within 
+  the same orthogroup will be included on the same binary vector to overcome functional redundancy between 
+  paralog genes. This approach will ensure that genetic redundancy does not mask a potential phenotype of 
+  interest (i.e. HLB resistance) when this transgenic Citrus collection is used for screening.
+  
+  
+  Agrobacterium-mediated transformation of Citrus sinensis cv Valencia will be carried out based on our optimized
+  protocols. Selection of transgenic plants expressing high levels of Cas9 and sgRNAs is facilitated by the use of 
+  the GFP-NPTII bifunctional selection marker. We will maximise the mutation rates in the selected Citrus plants 
+  by exposing edited plants to repeated heat stress treatments, which we have shown to drastically increase the 
+  editing rate in plants. 
+  
+  
+  We will rapidly screen at least 12 transformants for each construct and select two robust lines, in which editing 
+  has been demonstrated to be at or close to 100% in the four targeted genes, to be maintained. To precisely and 
+  rapidly measure gene editing rates in the selected plants we will employ targeted amplicon sequencing. Information 
+  regarding the mutation level at each locus in each transgenic plant will be provided on the project website. 
+  "
+  
+  sec3title : "Survey of consumer acceptance and economic viability of edited Citrus"
+  sec3content : "
+  The potential application of using CRISPR/Cas9-mediated editing to develop HLB resistance is constrained by whether 
+  consumers will accept CRISPR/Cas9-edited citrus. If consumers will not accept this type of citrus then growers will 
+  not grow it. Much research has been conducted on consumer acceptance of genetically modified foods, and typically 
+  consumers are willing to pay more to avoid this option. However, a number of different factors are found to 
+  influence acceptance including the type of product, the location of the consumer, the benefit conferred by the 
+  modification and the technology itself. It is important that we learn about consumer reactions so that when 
+  such products become available to consumers we can assess what are the critical factors that determine acceptance. 
+  This is both necessary to determine demand (and profitability if such products are introduced) and to develop an 
+  understanding of how to speak to consumers about complex technologies.
+  
+  
+  To aid in this process we will convene consumer focus groups to discuss the use of CRISPR/Cas9 (and other forms of 
+  technology) in food production. The focus of the discussions will be on consumer reaction to information about 
+  technology, including why it is used, how it is used, and how it may be regulated or labeled. This will provide 
+  a deeper understanding about the key concepts that concern or relieve concern about the use of complex technology 
+  in food consumption. Infomation from these discussions will also help shape a larger, representative consumer survey
+  to test messages that successfully alleviate concerns about technology on a larger scale. In addition, the survey 
+  can incorporate methods related to valuing food products to determine the impact of concern on willingness to pay
+  for food products (e.g. orange juice) produced with different technologies. 
+  
+  
+  From this work a white paper will be developed and made available that provides input to researchers on how to 
+  communicate effectively about CRISPR with consumers. It will also shed light on the economic implications of this 
+  project by identifying barriers to adoption of CRISPR-edited citrus by growers and estimating the 
+  economic importance of these barriers.
+
+  "
+  
+######################## Timeline ##########################
+timeline:
+  enable : true
+  
+  title : "Timeline"
+######################## Team ##############################
+team:
+  enable : true
+  
+  title: "Team"
+  indivTeam : 
+    - name : "Irish Lab"
+      logo : "images/about/yalelogo.png"
+      content : "Over 25 years of research experience in plant developmental and molecular genetics."
+
+    - name : "Jacob Lab"
+      logo : "images/about/yalelogo.png"
+      content : "Experience in optimizing novel genome-engineering technologies in plants, with a focus on Citrus."
+      
+    - name : "Seymour Lab"
+      logo : "images/about/UCR.png"
+      content : "Development of high-throughput phenotyping methods to facilitate selection in Citrus."
+      
+    - name : "Lisa House and Bachir Kassas"
+      logo : "images/about/UF.png"
+      content : "Expertise in consumer acceptance of biotech foods, demand and consumer perception of fruits and vegetables."
+
+      
+######################## Experience  #####################
+experience:
+  enable : true
+  
+  title : "Experience"
+  image : "images/about/experience.png"
+  
+  content : "
+  In recent years the Irish and Jacob labs have developed approaches that have significantly improved CRISPR/Cas9 efficiency in citrus. 
+  These include the use of codon-optimized versions of Cas9, along with specific promoters that augment Cas9 activity in dividing cells. 
+  The groups have also developed vectors to facilitate identification of transgenic events by using a combination of selectable markers 
+  (GFP fluorescence and resistance to kanamycin) and optimized citrus transformation protocols to generate more citrus transgenic plants 
+  per transformation. Research from these collaborating labs has also led to advances which increase the rate of CRISPR/Cas9-mediated 
+  mutagenesis by extending the time of the citrus regeneration process and the [exposure to heat stress](https://onlinelibrary.wiley.com/doi/10.1111/tpj.13782) 
+  which increases the frequency of CRISPR/Cas9-induced mutations many-fold relative to transformed plants not exposed to heat stress.   
+  
+  
+  The labs have demonstrated that multiplex gene editing is feasible in Citrus. Multiplex gene editing refers to the targeting 
+  of multiple genes in a single event, so as to abrogate the function of several genes at once. This was utilised to successfully 
+  targeted three thorn development genes simultaneously using multiplex CRISPR/Cas9. This multiplex approach was extremely valuable 
+  in addressing [genetic redundancy between the thorn developmental genes](https://www.sciencedirect.com/science/article/abs/pii/S0960982220307557) of Citrus as only by mutating several genes simultaneously was 
+  it possible to uncover overlapping genetic functions that were not apparent in single knockout lines. As genetic redundancy could also 
+  play a role in HLB susceptibility, the ability to inactivate multiple genes at once will be essential in testing the roles of multiple 
+  genes in disease response. Thus the labs involved in this project have a robust protocol to rapidly, effectively, and efficiently knock 
+  out multiple genes simultaneously in Citrus. 
+
+
+  "
+  
+######################## Contact ###########################
+contact:
+  enable : false
+  
+######################## Book Preview ##########################
+preview:
+  enable : false
+  pagePreview:
+    # page preview loop
+    - image : "images/about/book_page.png"
+    - image : "images/about/book_page2.png"
+    - image : "images/about/book_page.png"
+
+  title : "Look Inside the book"
+  content : "
+  This lovely, well-written book is concerned with creating typography and is essential for professionals who regularly work for clients.
+
+
+  Dolor quam consectetur corrupti, dignissimos sequi. Nihil totam alias, ipsa facere quibusdam, modi accusamus quod quae quaerat.
+  "
+
+  inside:
+    # book inside item loop
+    - insideItem : "7 Chapter"
+    - insideItem : "Explained Details"
+    - insideItem : "Clear Understanding"
+    - insideItem : "Best practices"
+
+  # button
+  button:
+    enable : true
+    label : "Purchase on Amazon"
+    link : "#"
+
+
+########################## Service ##############################
+service:
+  enable : false
+  serviceItem:
+    # service item loop
+    - title : "Experience"
+      icon : "ti-microphone" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+      
+    # service item loop
+    - title : "Marketing Goals"
+      icon : "ti-rocket" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+      
+    # service item loop
+    - title : "Targetting Vission"
+      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+
+
+######################### Quote #############################
+quote:
+  enable : false
+  quote: "It's simply the best guide to making money online ever released which only a fool would ignore."
+  quoteBy: "John Smith"
+
+
+######################### Chapters ##########################
+chapters:
+  enable : false
+  title : "Full Chapter Overview"
+  subtitle : "Libero atque veniam molestiae ipsa aliquid quam facilis dolore."
+  chapter:
+    # chapter preview loop
+    - title : "Chapter 1"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+
+    # chapter preview loop
+    - title : "Chapter 2"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+      
+    # chapter preview loop
+    - title : "Chapter 3"
+      content : "Calculating your cost of living, with an overview of NYC neighborhoods and average rent prices. Includes tips on when to move to NYC."
+      
+    # chapter preview loop
+    - title : "Chapter 4"
+      content : "Calculating your cost of living, with an overview of NYC neighborhoods and average rent prices. Includes tips on when to move to NYC."
+      
+    # chapter preview loop
+    - title : "Chapter 5"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+      
+    # chapter preview loop
+    - title : "Chapter 6"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+
+
+########################## Revews ###########################
+reviews:
+  enable : false
+  title : "What people are saying"
+  subtitle : "Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!"
+  review:
+    # review item loop
+    - name : "Barrow Hasi"
+      image : "images/client/test-1.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "five" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      
+    # review item loop
+    - name : "Nilam Arthur"
+      image : "images/client/test-2.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "four" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      
+    # review item loop
+    - name : "Barrow Hasi"
+      image : "images/client/test-1.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "five" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      
+    # review item loop
+    - name : "Nilam Arthur"
+      image : "images/client/test-2.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "four" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+
+
+#################################### device ################################
+devices:
+  enable : false
+  title : "Read it on your favorite device!"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quod, nobis repudiandae! In
+          commodi accusamus molestiae, sunt, tempora fugiat doloribus sint quisquam illo numquam corporis
+          tenetur necessitatibus expedita eius, sed."
+  image : "images/about/ipad.jpg"
+  feature:
+    # feature item loop
+    - title : "Take a sneak peak insight"
+      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
+      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+      
+    # feature item loop
+    - title : "Reporting & Analysis"
+      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
+      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+
+
+  # button
+  button:
+    enable : false
+    label : "Purchase on amazon"
+    link : "#"
+
+######################################## author #############################
+author:
+  enable : false
+  image : "images/about/home-1.jpg"
+  name : "Yasin Arafat"
+  designation : "A technical Writer"
+  content : "
+  Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
+
+
+  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+
+  # signature
+  signature : "images/about/2.png"
+
+
+################################ Awards #####################################
+awards:
+  enable : false
+  title : "We are award winner best selling book among the top rated 10 books!"
+  award:
+    # award item loop
+    - title : "International award"
+      image : "images/about/award-1.png"
+      
+    # award item loop
+    - title : "Meritorious award"
+      image : "images/about/award-2.png"
+      
+    # award item loop
+    - title : "Best book award"
+      image : "images/about/award-3.png"
+      
+    # award item loop
+    - title : "Excellence award"
+      image : "images/about/award-4.png"
+
+
+############################# Other books ###############################
+otherBooks:
+  enable : false
+  title : "Others books by the author"
+  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique
+            facere quas blanditiis."
+  book:
+    # books loop
+    - image : "images/about/b-1.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-2.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-3.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-4.jpg"
+      link : "#"
+
+################################ Blog ###################################
+blog:
+  enable : false
+  title : "Our insights and articles"
+  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
+  # blog post comes from 'content/blog'
+
+################################# Contact ##############################
+contact:
+  enable : false
+  title : "Contact Us"
+  subtitle : "Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!"
+  contactItem:
+    # contact Item loop
+    - title : "Contact Quickly"
+      icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "+23-68017684"
+        
+    # contact Item loop
+    - title : "Email"
+      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "startor@support.com"
+        
+    # contact Item loop
+    - title : "Location"
+      icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "397 Lake forest drive street USA"
