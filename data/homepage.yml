@@ -102,13 +102,14 @@ strategy:
   "
   
   sec2title : "Generation of mutant population"
+  sec2image : "images/about/plan.png"
   sec2content : "
-  To inactivate 1,200 HLB-susceptibility genes, we will use a multiplex CRISPR/Cas9 approach. Our 
+  To inactivate 1,200 potantial HLB-susceptibility genes, we will use a multiplex CRISPR/Cas9 approach. Our 
   strategy will be to include four sgRNA genes targeting four different Citrus genes in each binary vector. 
   This multiplex approach will therefore require a minimum of 300 constructs each containing a different set 
   of four sgRNAs, for a total of 1,200 gene knockouts in 300 Citrus plants. We intend to create and maintain 
-  two independent Citrus transgenic plants for each set of four sgRNAs, so the final plant collection created 
-  will consist of 600 plants housed at the Yale Plant Facility.
+  four independent Citrus transgenic plants for each set of four sgRNAs, so the final plant collection created 
+  will consist of 1,200 plants housed at the Yale Plant Facility.
   
   
   The combination of each set of sgRNAs will be determined by their phylogenetic relationship to one another 
