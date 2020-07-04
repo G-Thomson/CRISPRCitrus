@@ -181,7 +181,7 @@ team:
 
     - name : "Jacob Lab"
       logo : "images/about/yalelogo.png"
-      website : https://jacob-lab.yale.edu/"
+      website : "https://jacob-lab.yale.edu/"
       content : "Experience in optimizing novel genome-engineering technologies in plants, with a focus on Citrus."
       
     - name : "Seymour Lab"
