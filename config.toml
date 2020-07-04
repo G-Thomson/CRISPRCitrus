@@ -62,6 +62,11 @@ paginate = 6
   name = "Experience"
   URL = "experience"
   weight = 6
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 7
 
 #################### default parameters ################################
 [params]
