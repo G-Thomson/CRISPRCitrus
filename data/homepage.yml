@@ -184,20 +184,20 @@ team:
       website : "https://jacob-lab.yale.edu/"
       content : "Experience in optimizing novel genome-engineering technologies in plants, with a focus on Citrus."
       
-    - name : "Seymour Lab"
-      logo : "images/about/UCR.png"
-      website : "https://www.seymour-lab.com/"
-      content : "Development of high-throughput phenotyping methods to facilitate selection in Citrus."
+    #- name : "Seymour Lab"
+    #  logo : "images/about/UCR.png"
+    #  website : "https://www.seymour-lab.com/"
+    #  content : "Development of high-throughput phenotyping methods to facilitate selection in Citrus."
       
     - name : "Lisa House and Bachir Kassas"
       logo : "images/about/UF.png"
       website : "https://fred.ifas.ufl.edu/faculty/house/"
       content : "Expertise in consumer acceptance of biotech foods, demand and consumer perception of fruits and vegetables."
 
-    - name : "Stover Lab"
-      logo : "images/about/USDA.jpg"
-      website : "https://www.ars.usda.gov/southeast-area/fort-pierce-fl/us-horticultural-research-laboratory/subtropical-insects-and-horticulture-research/people/ed-stover/"
-      content : "Development of improved Citrus varieties and production practices. Specifically HLB resistance and profitable Citrus production using HLB-susceptible varieties."
+    #- name : "Stover Lab"
+    #  logo : "images/about/USDA.jpg"
+    #  website : "https://www.ars.usda.gov/southeast-area/fort-pierce-fl/us-horticultural-research-laboratory/subtropical-insects-and-horticulture-research/people/ed-stover/"
+    #  content : "Development of improved Citrus varieties and production practices. Specifically HLB resistance and profitable Citrus production using HLB-susceptible varieties."
       
 ######################## Experience  #####################
 experience:
