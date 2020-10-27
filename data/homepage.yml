@@ -5,6 +5,20 @@ banner:
   image : "images/about/oranges.jpg"
   content : "Identification of HLB Susceptibility Genes in a Citrus Population Generated using Multiplexed CRISPR/Cas9 Gene Editing"
 
+######################## Hiring ###########################
+hiring:
+  enable : true
+  
+  title :  "We're Hiring!"
+  content : "
+  Multiple positions (e.g. postdoctoral researchers, technicians and/or postgraduate students) are currently available in the laboratories 
+  of Vivian Irish and Yannick Jacob at Yale University (Department of Molecular, Cellular and Developmental Biology) to work on applying transformation 
+  technologies and genome engineering (e.g. CRISPR/Cas9) in economically important Citrus species.
+
+
+  [Click here to find out more!](https://www.arabidopsis.org/download_files/_Job_Postings/155969.pdf) 
+  "
+
 ######################## Overview ##########################
 overview :
   enable : true
@@ -245,7 +259,21 @@ contact:
   
   Please contact the project directors Vivian Irish (vivian.irish@yale.edu) and/or Yannick Jacob (yannick.jacob@yale.edu).
   "
+ 
+######################## Funding ##########################
+funding :
+  enable : true
+  title : "Funding"
+  image : "images/about/USDA.jpg"
   
+  content : "
+  The CRISPR citrus project to identify HLB susceptibility genes in a Citrus population generated using multiplexed 
+  CRISPR/Cas9 gene editing is funded as part of the [USDA-NIFA’s Emergency Citrus Disease Research & Extension (ECDRE) program](https://nifa.usda.gov/press-release/usda-nifa-tackles-harmful-citrus-disease-research-grants). 
+  
+  
+  This program promotes collaboration, open communication and the exchange of information to accelerate the application of scientific discovery and technology to farm-level solutions for HLB.
+  "
+
 ######################## Book Preview ##########################
 preview:
   enable : false

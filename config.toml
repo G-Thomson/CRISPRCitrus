@@ -68,6 +68,11 @@ paginate = 6
   URL = "contact"
   weight = 7
 
+  [[menu.main]]
+  name = "Funding"
+  URL = "funding"
+  weight = 8
+
 #################### default parameters ################################
 [params]
 logo = "images/about/logo3.png"
