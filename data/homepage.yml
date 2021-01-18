@@ -7,7 +7,7 @@ banner:
 
 ######################## Hiring ###########################
 hiring:
-  enable : true
+  enable : false
   
   title :  "We're Hiring!"
   content : "
